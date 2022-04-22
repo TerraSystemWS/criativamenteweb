@@ -1,17 +1,23 @@
 import Menu from "next/link";
 
+
+const linkstyle = {
+    marginright: 15
+
+} 
+
 const Menu = () => (
     <div>
         <link href='/'>
-            <a>Home</a>
+            <a style ={inkstyle} >Home</a>
         </link>
 
         <link href='/sobre'>
-            <a>Sobre</a>
+            <a style ={inkstyle}>Sobre</a>
         </link>
 
         <link href='/contato'>
-            <a>Contato</a>
+            <a style ={inkstyle}>Contato</a>
         </link>
     </div>
 );
