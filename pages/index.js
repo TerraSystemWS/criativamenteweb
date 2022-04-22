@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import Head from 'next/head'
 import Menu from '../components/Menu'
 
@@ -21,3 +22,15 @@ function HomePage() {
 export default HomePage
 
 
+=======
+const Home = () => {
+	return (
+		<div>
+			<p>Ola Mundo</p>
+			<p>Criativa mente</p>
+		</div>
+	);
+};
+
+export default Home;
+>>>>>>> f74f4fa144dbe512ed4479c180e4d055a1cf3967
